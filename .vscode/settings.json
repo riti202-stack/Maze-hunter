@@ -1,0 +1,9 @@
+{
+    "python.analysis.extrapaths":["${workspaceFolder}"],
+    "files.exclude":{
+
+        "**/__pycache__":true
+    },
+
+    "editor.rulers":[100]
+}

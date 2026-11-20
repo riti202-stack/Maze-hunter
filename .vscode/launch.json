@@ -1,0 +1,25 @@
+{
+    "version":"0.2.0",
+    "configurations":[
+        {
+            "name": "play Maze Hunter",
+            
+            "request": "launch",
+            "type": "debugpy",
+            "program":"${workspaceFolder}/main.py",
+            "cwd":"${workspaceFolder}",
+            "console":"integratedTerminal"
+            
+        },
+
+        {
+            "name": "AI vs AI evaluation(100 matches)",
+            "request": "launch",
+            "type": "debugpy",
+            "program":"${workspaceFolder}/main.py",
+            "args": ["--headless", "--matches", "100", "--difficulty","Medium"],
+            "cwd":"${workspaceFolder}",
+            "console":"integratedTerminal"
+        }
+    ]
+}

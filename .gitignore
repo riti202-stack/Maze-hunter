@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+highscore.json
+results.csv
+.DS_Store

@@ -1,0 +1,1 @@
+"""Maze Hunter - an AI-driven maze chase game."""
